@@ -9,15 +9,13 @@ def value_det(a,z):
     """
     if a%2 == 0:
         if z%2 == 0:
-
             return(12.0)
-
     if a%2 == 0:
         if z%2 !=0:
             return(-12.0)
     if a%2 != 0:
             return(0)
-
+        
 def Volume_term (a):
     """
     Defines the volume term of the semi-empirical mass formula
